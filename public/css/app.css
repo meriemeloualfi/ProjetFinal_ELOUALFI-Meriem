@@ -12337,6 +12337,58 @@ section {
     padding-bottom: 10px;
   }
 }
+#review {
+  background-image: url(../assets/img/testimonials-bg.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+#review .carousel {
+  text-align: center;
+  color: white;
+}
+#review .carousel img {
+  border-radius: 50%;
+}
+#review .carousel i {
+  color: #ffb03b;
+}
+#review .carousel p {
+  padding: 0 150px;
+}
+#review .carousel .p1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+#review .carousel .p2 {
+  opacity: 0.7;
+}
+@media (max-width: 428px) {
+  #review .carousel {
+    padding: 0 20px;
+    color: white;
+  }
+  #review .carousel img {
+    border-radius: 50%;
+    width: 50px;
+  }
+  #review .carousel i {
+    color: #ffb03b;
+  }
+  #review .carousel p {
+    padding: 0;
+    text-align: center;
+  }
+  #review .carousel .p1 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  #review .carousel .p2 {
+    opacity: 0.7;
+  }
+}
+
 #chef {
   background-image: url(../assets/img/chefs-bg.jpg);
   background-attachment: fixed;
