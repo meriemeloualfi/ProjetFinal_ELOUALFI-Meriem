@@ -12406,5 +12406,15 @@ section {
     align-items: center;
   }
 }
+#contact .title {
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+}
+
+@media (max-width: 428px) {
+  iframe {
+    width: 428px;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
