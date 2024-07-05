@@ -12337,5 +12337,22 @@ section {
     padding-bottom: 10px;
   }
 }
+#chef {
+  background-image: url(../assets/img/chefs-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#chef h2, #chef .h2 {
+  font-family: "Satisfy", cursive;
+  font-weight: 550;
+}
+
+@media (max-width: 428px) {
+  .sc {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
