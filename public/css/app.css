@@ -11970,5 +11970,60 @@ nav .menu-icon {
     cursor: pointer;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-caption {
+  bottom: 300px;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+.carousel-caption h4, .carousel-caption .h4 {
+  font-family: "Satisfy", cursive;
+  font-size: 48px;
+  font-weight: 700;
+}
+.carousel-caption h4 span, .carousel-caption .h4 span {
+  color: #ffb03b;
+}
+.carousel-caption p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.carousel-caption button {
+  font-size: 14px;
+  font-weight: 500;
+  align-items: center;
+  background: none;
+  margin-left: 20px;
+  color: white;
+  letter-spacing: 2px;
+  border-radius: 15px;
+  padding: 5px 19px;
+  border: 2px solid #ffb03b;
+}
+.carousel-caption button:hover {
+  background-color: #ffb03b;
+}
+
+@media (max-width: 428px) {
+  .carousel-caption {
+    position: absolute;
+    bottom: 350px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+  }
+  .carousel-caption h4, .carousel-caption .h4 {
+    font-size: 24px;
+  }
+  .carousel-caption p {
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
