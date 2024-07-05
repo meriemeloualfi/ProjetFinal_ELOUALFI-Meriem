@@ -12290,4 +12290,52 @@ section {
   }
 }
 
+#gallery h2, #gallery .h2 {
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  font-weight: 650;
+}
+#gallery h2 span, #gallery .h2 span {
+  color: #ffb03b;
+}
+#gallery p {
+  margin: 15px 0;
+  font-weight: 320;
+  text-align: center;
+}
+
+.custom-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.custom-row .image {
+  flex: 1;
+  margin-right: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.custom-row .image:hover img {
+  transform: scale(1.1);
+}
+.custom-row .image:hover {
+  overflow: hidden;
+}
+.custom-row img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 428px) {
+  .custom-row {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .image {
+    padding-bottom: 10px;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
