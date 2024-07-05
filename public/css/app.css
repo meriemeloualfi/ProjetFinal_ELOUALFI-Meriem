@@ -12146,5 +12146,53 @@ section {
     flex-direction: column-reverse;
   }
 }
+#event {
+  background-image: url(../assets/img/events-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#event h2, #event .h2 {
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  color: white;
+  padding-bottom: 35px;
+}
+#event h2 span, #event .h2 span {
+  color: #ffb03b;
+  font-weight: 600;
+}
+#event h1, #event .h1,
+#event p {
+  color: white;
+}
+#event h3, #event .h3 {
+  color: #ffb03b;
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+}
+#event .underline {
+  font-weight: 500;
+  border-bottom: 2px solid #ffb03b;
+  display: inline-block;
+  font-size: 25px;
+}
+
+@media (max-width: 428px) {
+  .carousel-inner .carousel-item .parties {
+    flex-direction: column;
+  }
+  .carousel-inner .carousel-item img {
+    width: 100%;
+  }
+  .carousel-inner .carousel-item h3, .carousel-inner .carousel-item .h3 {
+    text-align: center;
+  }
+  .carousel-inner .carousel-item p {
+    text-align: justify;
+  }
+  .carousel-inner .carousel-item .underline {
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
