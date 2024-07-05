@@ -1,0 +1,95 @@
+#book
+  width: 80vw
+  margin: 0 auto 
+  padding: 50px 0px
+
+  h2
+    text-align: center
+    font-family: "Satisfy", cursive
+    font-weight: 650
+
+    span
+      color: #ffb03b
+
+  p
+    margin: 15px 0
+    font-weight: 320
+    text-align: center
+
+  .contact-info
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12)
+    padding: 30px 50px
+    background: #fff
+    max-width: 1200px 
+    margin: 0 auto 
+
+    form
+      display: flex
+      flex-direction: column
+      align-items: center
+
+      .inputs1,
+      .inputs2
+        display: flex
+        padding: 15px 0
+        width: 100%
+        
+        gap: 15px
+
+        input
+          flex: 1
+          padding: 5px 23px
+          box-shadow: none
+          font-size: 14px
+          width: 100px 
+
+      textarea
+        
+        padding: 5px 23px
+        font-size: 14px
+        margin-bottom: 20px
+        box-sizing: border-box
+
+      .btn
+        display: flex
+        justify-content: center
+        width: 100%
+        margin-top: 20px
+
+      .btn-messg
+        background: #ffb03b
+        border: 0
+        padding: 10px 24px
+        color: #fff
+        border-radius: 50px
+
+
+  @media (max-width: 428px)
+    .contact-info
+      padding: 20px
+
+      form
+        .inputs1,
+        .inputs2
+          flex-direction: column
+          gap: 10px
+
+          input
+            width: 100%
+            margin-bottom: 10px
+            padding: 10px
+            box-sizing: border-box
+
+        textarea
+          width: 100%
+          margin-bottom: 10px
+          padding: 10px
+          box-sizing: border-box
+
+        .btn
+          flex-direction: column
+          align-items: center
+
+        .btn-messg
+          width: 100%
+          margin-bottom: 10px

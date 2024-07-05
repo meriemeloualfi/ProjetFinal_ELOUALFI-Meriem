@@ -12194,5 +12194,100 @@ section {
     text-align: center;
   }
 }
+#book {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+#book h2, #book .h2 {
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  font-weight: 650;
+}
+#book h2 span, #book .h2 span {
+  color: #ffb03b;
+}
+#book p {
+  margin: 15px 0;
+  font-weight: 320;
+  text-align: center;
+}
+#book .contact-info {
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  padding: 30px 50px;
+  background: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#book .contact-info form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#book .contact-info form .inputs1,
+#book .contact-info form .inputs2 {
+  display: flex;
+  padding: 15px 0;
+  width: 100%;
+  gap: 15px;
+}
+#book .contact-info form .inputs1 input,
+#book .contact-info form .inputs2 input {
+  flex: 1;
+  padding: 5px 23px;
+  box-shadow: none;
+  font-size: 14px;
+  width: 100px;
+}
+#book .contact-info form textarea {
+  padding: 5px 23px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+#book .contact-info form .btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+#book .contact-info form .btn-messg {
+  background: #ffb03b;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  border-radius: 50px;
+}
+@media (max-width: 428px) {
+  #book .contact-info {
+    padding: 20px;
+  }
+  #book .contact-info form .inputs1,
+  #book .contact-info form .inputs2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+  #book .contact-info form .inputs1 input,
+  #book .contact-info form .inputs2 input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  #book .contact-info form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  #book .contact-info form .btn {
+    flex-direction: column;
+    align-items: center;
+  }
+  #book .contact-info form .btn-messg {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
